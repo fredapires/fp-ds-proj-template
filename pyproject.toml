@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fp-ds-proj-template"
-version = "0.1.2"
+version = "0.1.3"
 description = "personal datascience project template"
 authors = ["Fred Pires <fredapires@gmail.com>"]
 license = "MIT"
