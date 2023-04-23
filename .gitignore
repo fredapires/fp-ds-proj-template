@@ -35,8 +35,6 @@ coverage.xml
 
 # virtual environment
 .venv/
-Pipfile.lock
-*.lock
 
 # Translations
 *.mo

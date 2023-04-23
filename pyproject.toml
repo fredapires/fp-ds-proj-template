@@ -1,0 +1,68 @@
+[tool.poetry]
+name = "fp-ds-proj-template"
+version = "0.1.02"
+description = "personal datascience project template"
+authors = ["Fred Pires <fredapires@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "src" },
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+python-dotenv = "*"
+pyperclip = "*"
+jupyter-helpers = "*"
+win10toast = "*"
+pyautogui = "*"
+pandas = "*"
+build = "*"
+numpy = ">=1.23.5"
+numpy-financial = "*"
+xlwings = "*"
+openpyxl = "*"
+matplotlib = "*"
+seaborn = "*"
+plotly = "*"
+pygwalker = "*"
+lux = "*"
+lux-api = "*"
+missingno = "*"
+ydata-profiling = "*"
+dtale = ">=2.14.1"
+dataprep = "*"
+pyarrow = "*"
+jaro-winkler = "*"
+xgboost = "*"
+scikit-learn = "*"
+scipy = "^1.9.3"
+kaleido = "0.2.1"
+fredapi = "*"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+# pytest-mock = "*"
+faker = "*"
+black = "*"
+# flake8 = "*"
+
+
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+# [[tool.poetry.source]]
+# name = "conda-forge"
+# url = "https://conda.anaconda.org/conda-forge/"
+
+
+# [tool.poetry.scripts]
+# your_script_name = "fp-data-toolbox:main"
+
+
+[tool.poetry.plugins."poetry-dynamic-versioning"]
+version-scheme = "calver"
